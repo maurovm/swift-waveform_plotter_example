@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349577A527B942F4003616F3 /* main_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349577A427B942F4003616F3 /* main_app.swift */; };
+		349577A727B942F4003616F3 /* plotter_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349577A627B942F4003616F3 /* plotter_view.swift */; };
+		349577A927B942F6003616F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349577A827B942F6003616F3 /* Assets.xcassets */; };
+		349577AC27B942F6003616F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349577AB27B942F6003616F3 /* Preview Assets.xcassets */; };
+		3497A55927FF0D96002DE79D /* WaveformPlotter in Frameworks */ = {isa = PBXBuildFile; productRef = 3497A55827FF0D96002DE79D /* WaveformPlotter */; };
+		3497A55D27FF0E07002DE79D /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 3497A55A27FF0E07002DE79D /* CREDITS */; };
+		3497A55E27FF0E07002DE79D /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 3497A55B27FF0E07002DE79D /* COPYING */; };
+		3497A55F27FF0E07002DE79D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3497A55C27FF0E07002DE79D /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		349577A127B942F4003616F3 /* WaveformPlotterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveformPlotterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349577A427B942F4003616F3 /* main_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main_app.swift; sourceTree = "<group>"; };
+		349577A627B942F4003616F3 /* plotter_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plotter_view.swift; sourceTree = "<group>"; };
+		349577A827B942F6003616F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349577AB27B942F6003616F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3497A55A27FF0E07002DE79D /* CREDITS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CREDITS; sourceTree = "<group>"; };
+		3497A55B27FF0E07002DE79D /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		3497A55C27FF0E07002DE79D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3495779E27B942F4003616F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3497A55927FF0D96002DE79D /* WaveformPlotter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3448234827DCDAC2002CF322 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				349577A427B942F4003616F3 /* main_app.swift */,
+				349577A627B942F4003616F3 /* plotter_view.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3495779827B942F4003616F3 = {
+			isa = PBXGroup;
+			children = (
+				3448234827DCDAC2002CF322 /* src */,
+				349577A327B942F4003616F3 /* project */,
+				349577A227B942F4003616F3 /* Products */,
+				349577B227B943F3003616F3 /* Frameworks */,
+				3497A55B27FF0E07002DE79D /* COPYING */,
+				3497A55A27FF0E07002DE79D /* CREDITS */,
+				3497A55C27FF0E07002DE79D /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		349577A227B942F4003616F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349577A127B942F4003616F3 /* WaveformPlotterExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349577A327B942F4003616F3 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				349577A827B942F6003616F3 /* Assets.xcassets */,
+				349577AA27B942F6003616F3 /* Preview Content */,
+			);
+			path = project;
+			sourceTree = "<group>";
+		};
+		349577AA27B942F6003616F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				349577AB27B942F6003616F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		349577B227B943F3003616F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349577A027B942F4003616F3 /* swift-waveform_plotter_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349577AF27B942F6003616F3 /* Build configuration list for PBXNativeTarget "swift-waveform_plotter_example" */;
+			buildPhases = (
+				3495779D27B942F4003616F3 /* Sources */,
+				3495779E27B942F4003616F3 /* Frameworks */,
+				3495779F27B942F4003616F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-waveform_plotter_example";
+			packageProductDependencies = (
+				3497A55827FF0D96002DE79D /* WaveformPlotter */,
+			);
+			productName = waveform_plotter;
+			productReference = 349577A127B942F4003616F3 /* WaveformPlotterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3495779927B942F4003616F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					349577A027B942F4003616F3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3495779C27B942F4003616F3 /* Build configuration list for PBXProject "swift-waveform_plotter_example" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3495779827B942F4003616F3;
+			packageReferences = (
+				3497A55727FF0D96002DE79D /* XCRemoteSwiftPackageReference "swift-waveform_plotter" */,
+			);
+			productRefGroup = 349577A227B942F4003616F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349577A027B942F4003616F3 /* swift-waveform_plotter_example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3495779F27B942F4003616F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3497A55E27FF0E07002DE79D /* COPYING in Resources */,
+				3497A55D27FF0E07002DE79D /* CREDITS in Resources */,
+				3497A55F27FF0E07002DE79D /* README.md in Resources */,
+				349577AC27B942F6003616F3 /* Preview Assets.xcassets in Resources */,
+				349577A927B942F6003616F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3495779D27B942F4003616F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349577A727B942F4003616F3 /* plotter_view.swift in Sources */,
+				349577A527B942F4003616F3 /* main_app.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		349577AD27B942F6003616F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349577AE27B942F6003616F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349577B027B942F6003616F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "project/Preview\\ Content/Preview\\ Assets.xcassets";
+				DEVELOPMENT_TEAM = B362S7ZS3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.ox.eng.cameralab.waveform-plotter-example";
+				PRODUCT_NAME = WaveformPlotterExample;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		349577B127B942F6003616F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "project/Preview\\ Content/Preview\\ Assets.xcassets";
+				DEVELOPMENT_TEAM = B362S7ZS3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.ox.eng.cameralab.waveform-plotter-example";
+				PRODUCT_NAME = WaveformPlotterExample;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3495779C27B942F4003616F3 /* Build configuration list for PBXProject "swift-waveform_plotter_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349577AD27B942F6003616F3 /* Debug */,
+				349577AE27B942F6003616F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349577AF27B942F6003616F3 /* Build configuration list for PBXNativeTarget "swift-waveform_plotter_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349577B027B942F6003616F3 /* Debug */,
+				349577B127B942F6003616F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3497A55727FF0D96002DE79D /* XCRemoteSwiftPackageReference "swift-waveform_plotter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maurovm/swift-waveform_plotter";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3497A55827FF0D96002DE79D /* WaveformPlotter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3497A55727FF0D96002DE79D /* XCRemoteSwiftPackageReference "swift-waveform_plotter" */;
+			productName = WaveformPlotter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3495779927B942F4003616F3 /* Project object */;
+}
