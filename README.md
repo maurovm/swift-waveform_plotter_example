@@ -45,10 +45,25 @@ main module that has all the functionality to connect and record data from
 devices that support Bluetooth Low Energy (BLE) protocol, such as heart rate 
 monitors and pulse oximeters. 
 
-An example of the plotting functionality provided by this library can be seen 
-in the figure below, showing the plotting of the Photoplethysmogram recorded 
-by a pulse oximeter
+## Plotting Examples
+
+The image below shows an example of plotting a sinusoidal waveform using the 
+synthetic waveform generator found in the [swift-waveform_plotter](https://github.com/maurovm/swift-waveform_plotter)
+Swift Package:
+
 
 <p align="center">
-    <kbd><img src="./doc/figures/ble_nppg_detail_landscape.png" alt="Nonin PPG" width="500" border=1 /></kbd>
-</p
+    <kbd><img src="./doc/figures/sinusoidal_plot.png" alt="Patient information screen" width="500" border=1 /></kbd>
+</p>
+
+
+The image below is an example of the plotting the Photoplethysmogram (PPG)
+signal recorded from a pulse oximeter from the
+[swift-pulse_ox_recorder](https://github.com/maurovm/swift-pulse_ox_recorder)
+application:
+
+
+<p align="center">
+    <kbd><img src="./doc/figures/ble_nppg_detail_landscape.png" alt="Patient information screen" width="600" border=1 /></kbd>
+</p>
+
