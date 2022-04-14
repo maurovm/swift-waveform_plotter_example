@@ -5,10 +5,15 @@ Example application to showcase the features available in
 a library to plot physiological time-series such as the Photoplethysmogram (PPG)
 recorded from a pulse oximeter
 
+---
 WaveformPlotterExample is free software: you can redistribute it or modify it
 under the terms of the GNU General Public License as published by the Free 
 Software Foundation, version 2 only. Please check the file [COPYING](COPYING) 
 for more information on the license and copyright.
+
+If you want to submit pull requests or contribute source code to this 
+repository, please read the [CONTRIBUTING.md](CONTRIBUTING.md) for
+more information about contributing guidelines.
 
 If you use this app in your projects and publish the results, please cite the 
 following manuscript:
@@ -19,7 +24,7 @@ physiological data acquisition". arXiv (In preparation). 2022
 ---
 
 WaveformPlotterExample is an iOS application written in Swift. This repository 
-only has the a minimum set of UI classes and configuration settings (XCode 
+only has the minimum set of UI classes and configuration settings (XCode 
 files, Settings.bundle, etc) to launch the plotting interface. The main 
 functionality is provided by the following Swift Packages:
 
@@ -38,7 +43,7 @@ A module containing shared utility methods and classes used by other modules
 and applications to record raw data from sensors. 
 - [swift-async_bluetooth](https://github.com/maurovm/swift-async_bluetooth): A 
 Swift Package that replicates some of the functionality provided by Apple's 
-CoreBluetooth module, but using Swift's latest async/await concurrency features.
+CoreBluetooth module but using Swift's latest async/await concurrency features.
 - [swift-async_pulse_ox](https://github.com/maurovm/swift-async_pulse_ox): The 
 main module that has all the functionality to connect and record data from 
 devices that support Bluetooth Low Energy (BLE) protocol, such as heart rate 
@@ -47,12 +52,16 @@ monitors and pulse oximeters.
 ## Plotting Examples
 
 The image below shows an example of plotting a sinusoidal waveform using the 
-synthetic waveform generator found in the [swift-waveform_plotter](https://github.com/maurovm/swift-waveform_plotter)
+synthetic waveform generator found in the
+[swift-waveform_plotter](https://github.com/maurovm/swift-waveform_plotter)
 Swift Package:
 
 
 <p align="center">
-    <kbd><img src="./doc/figures/sinusoidal_plot.png" alt="Patient information screen" width="500" border=1 /></kbd>
+    <kbd>
+    <img src="./doc/figures/sinusoidal_plot.png" 
+         alt="Patient information screen" width="500" border=1 />
+    </kbd>
 </p>
 
 
@@ -63,6 +72,9 @@ application:
 
 
 <p align="center">
-    <kbd><img src="./doc/figures/ble_nppg_detail_landscape.png" alt="Patient information screen" width="600" border=1 /></kbd>
+    <kbd>
+    <img src="./doc/figures/ble_nppg_detail_landscape.png" 
+         alt="Patient information screen" width="600" border=1 />
+    </kbd>
 </p>
 
