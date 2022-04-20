@@ -65,8 +65,8 @@ Swift Package:
 </p>
 
 
-The image below is an example of the plotting the Photoplethysmogram (PPG)
-signal recorded from a pulse oximeter from the
+The image below is an example of plotting the Photoplethysmogram (PPG)
+signal recorded from a pulse oximeter using the
 [swift-pulse_ox_recorder](https://github.com/maurovm/swift-pulse_ox_recorder)
 application:
 
